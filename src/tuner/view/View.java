@@ -1,5 +1,6 @@
 package tuner.view;
 import tuner.model.Model;
+import tuner.controller.Controller;
 
 public interface View {
 	Controller getController();
