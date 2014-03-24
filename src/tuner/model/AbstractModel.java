@@ -13,11 +13,9 @@ public abstract class AbstractModel implements Model {
 			ml.modelChanged(event);
 		}
 	}
-	
 	public void addModelListener(ModelListener l){
 		listeners.add(l);
 	}
-	
 	public void removeModelListener(ModelListener l){
 		listeners.remove(l);
 	}
